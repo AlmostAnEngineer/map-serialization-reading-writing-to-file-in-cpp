@@ -38,7 +38,7 @@ int main()
     /*
     Adding some custom data and reading it
     */
-    map[1].dataname = std::string("Placek");
+    map[1].dataname = std::string("someName");
     for (auto [key, value] : map)
     {
         std::cout << key << " " << value.dataname << std::endl;
